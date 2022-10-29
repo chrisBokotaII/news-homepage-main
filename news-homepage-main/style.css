@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    min-height: 90vh;
+}
+.col{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.links{
+    display: flex;
+    
+}
+nav span{
+    opacity: 0;
+}
+.items{
+    margin: 10px;
+}
+.items a{
+    color: #000;
+}
+.items a:hover{
+    color: #ffa500;
+}
+.logo{
+    margin-left: 1.5rem;
+}
+.container{
+    width: 60%;
+    margin-left: 4rem;
+    display: flex;
+}
+.firstcontainer{
+   display: block; 
+}
+.firstcontainer picture img{
+    width: 100%;
+}
+.sub-container1{
+
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.heading{
+    width: 80%;
+}
+.heading h1{
+width: 85%;
+font-size: 2rem;
+font-weight: bold;
+font-family: sans-serif;
+}
+.description{
+    width: 100%;
+}
+.description p{
+    padding: 0px 5px 5px 2px;
+    font-size: 14px;
+}
+.description button{
+    padding: 8px;
+    background: rgb(236, 115, 115);
+    color: #fff;
+    margin: 15px 2px;
+    width: 50%;
+    font-size: .8rem;
+    border: none;
+}
+.new{
+    margin: 0px 10px 5px 20px;
+    width: 100%;
+    background: rgb(9, 9, 37);
+    color: #fff;
+    padding: 9px;
+}
+.new h1{
+    font-size: 1.7rem;
+    color: #ffa500;
+    padding: 3px 10px 5px 10px;
+}
+.new h2{
+    font-size: .9rem;
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.new p {
+    font-size: .7rem;
+    padding: 0px 10px 20px 10px;
+    border-bottom: 1px solid #fff;
+    font-family: sans-serif;
+}
+.new p:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.services{
+    display: inline-flex;
+    margin-left: 4rem;
+    margin-top: 10px;
+    width: 60%;
+}
+.service{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.service img{
+    width: 50%;
+    height: 50%;
+}
+.dscr{
+   margin-left: 10px;
+}
+.dscr span{
+    font-size: 1.5rem;
+    color: gray;
+}
+.dscr h2{
+    font-size: 13px;
+    font-weight: bold;
+}
+.dscr p{
+    font-size: .7rem;
+}
+@media(max-width:375px){
+    .links{
+        display:none;
+        
+    }
+    nav span{
+        opacity: 1;
+        
+    }
+    .items{
+        margin: 10px 20px 10px 15px;
+        
+    }
+    .links.active{
+        display: block;
+        text-align: left;
+        margin-left: .4rem;
+        font-size: 1.5rem;
+    }
+    .container{
+        width: 70%;
+        display: block;
+    }
+    .sub-container1{
+
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .heading h1{
+        width: 85%;
+        font-size: 1.5rem;
+        
+        }
+        .description p{
+            padding: 0px 2px 2px 2px;
+            font-size: 12px;
+        }
+        .description button{
+            padding: 5px;
+            margin: 5px 2px;
+            width: 50%;
+            font-size: .8rem;
+            
+        }
+        .new{
+            margin: 0px 10px 5px 2px;
+            width: 90%;
+            padding: 9px;
+            height: 70vh;
+        }
+        .services{
+            display: block;
+            
+        }
+      
+
+}
+
