@@ -76,6 +76,9 @@ font-family: sans-serif;
     font-size: .8rem;
     border: none;
 }
+.description button:hover{
+    background:#ffa500;
+}
 .new{
     margin: 0px 10px 5px 20px;
     width: 100%;
